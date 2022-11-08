@@ -64,7 +64,7 @@ git push
 touch preferences.json
 ```
 
-13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страну которую хотели бы посетить) в формате JSON.
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON.
 
 ```bash
 vim preferences.json
@@ -239,7 +239,7 @@ git push
 touch preferences.xml
 ```
 
-30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате XML.
 
 ```xml
  cat > preferences.xml
@@ -249,7 +249,7 @@ touch preferences.xml
 <Favorite_serial> Everyones Hates Chris </Favorite_serial>
 <Favorite_food> Salo </Favorite_food>
 <Favorite_season> Winter </Favorite_season>
-<Favorite_coutry> Japan </Favorite_coutry>
+<Favorite_country> Japan </Favorite_coutry>
 
 ^C
 ```
@@ -430,7 +430,7 @@ git push
 touch preferences.txt
 ```
 
-10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате TXT.
 
 ```bash
 cat > preferences.txt

@@ -1,0 +1,100 @@
+_1. На локальном репозитории сделать ветки для:_
+- _Postman_ - __git branch Postman__
+- _Jmeter_ - __git branch Jmeter__
+- _CheckLists_ - __git branch Checklists__
+- _Bag Reports_ - __git branch Bugreports__
+- _SQL_ - __git branch SQL__
+- _Charles_ - __git branch Charles__
+- _Mobile testing_ - __git branch Mobile_testing__
+
+_2. Запушить все ветки на внешний репозиторий:_
+- __git push --all__
+
+_3. В ветке Bugreports сделать текстовый документ со структурой баг репорта:_ 
+- __git checkout Bugreports__ 
+- __vim bugreports.txt__
+ 
+
+```bash
+- 1.Короткое описание (Summary)
+- Короткое описание проблемы, явно указывающее на причину и тип ошибочной ситуации.__
+- 2.Проект (Project)      Название тестируемого проекта
+- 3.Компонент приложения (Component)      Название части или функции тестируемого продукта
+- 4.Номер версии (Version)        Версия на которой была найдена ошибка
+- 5.Серьезность (Severity)
+- 6.Наиболее распространена пятиуровневая система градации серьезности дефекта:
+
+S1 Блокирующий (Blocker)
+S2 Критический (Critical)
+S3 Значительный (Major)
+S4 Незначительный (Minor)
+S5 Тривиальный
+
+- 7.Приоритет (Priority)
+Приоритет дефекта:
+
+P1 Высокий (High)
+P2 Средний (Medium)
+P3 Низкий (Low)
+
+- 8.Статус (Status)       Статус бага. Зависит от используемой процедуры и жизненного цикла бага (bug workflow and life cycle)
+
+- 9.Автор (Author)        Создатель баг репорта
+
+- 10.Назначен на (Assigned To)    Имя сотрудника, назначенного на решение проблемы
+
+- 11.Окружение
+ОС / Сервис Пак и т.д. / Браузера + версия / ...        Информация об окружении, на котором был найден баг: операционная система, сервис пак, для WEB тестирования - имя и версия браузера и т.д.
+...
+
+- 12.Описание
+Шаги воспроизведения (Steps to Reproduce)       Шаги, по которым можно легко воспроизвести ситуацию, приведшую к ошибке.
+Фактический Результат (Result)  Результат, полученный после прохождения шагов к воспроизведению
+Ожидаемый результат (Expected Result)   Ожидаемый правильный результат
+Дополнения
+Прикрепленный файл (Attachment) Файл с логами, скриншот или любой другой документ, который может помочь прояснить причину ошибки или указать на способ решения проблемы
+```
+- __Esc + :wq__  
+
+_4. Запушить структуру багрепорта на внешний репозиторий_ 
+- __git add  bugreports.txt __   
+- __git commit -m "Create bugrreport.txt"__
+- __git push -u origin Bugreports__  
+
+_5. Вмержить ветку Bag Reports в Main:_ 
+- __git checkout main__
+- __git merge Bugreports__  
+
+_6. Запушить main на внешний репозиторий:_ 
+- __git push__
+
+_7. В ветке Checklists набросать структуру чек листа:_ 
+- __git_checkout Checklists__
+- __cat> checklist.txt__
+```bash
+ID
+Summary
+Section
+Enviroment
+Expected Result
+Status
+Bug report link
+```
+- __Ctrl+c__  
+
+_8. Запушить структуру на внешний репозиторий_
+- __git add .__   
+- __git commit -m "Create checklist.txt"__
+- __git push -u origin CheckLists__  
+
+_9. На внешнем репозитории сделать Pull Request ветки Checklists в main:_
+- __на внешнем репозитории кликнуть кнопку "Compare&Pull request"__
+- __в поле для комментария оставить комментарий "Branch is ready to be merged"__
+- __кликнуть кнопку "Create pull request"__
+- __кликнуть кнопку "Merge pull request"__
+- __кликнуть кнопку "Confirm merge"__  
+
+_10. Синхронизировать Внешнюю и Локальную ветки Main:_
+- __git checkout main__
+- __git fetch__
+- __git pull__

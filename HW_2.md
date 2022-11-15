@@ -1,14 +1,11 @@
-1. На локальном репозитории сделать ветки для:
-
-- Postman
-- Jmeter
-- CheckLists
-- Bag Reports
-- SQL
-- Charles
-- Mobile testing
-
-```bash
+_1. На локальном репозитории сделать ветки для:_
+- _Postman_ - __git branch Postman__
+- _Jmeter_ - __git branch Jmeter__
+- _CheckLists_ - __git branch Checklists__
+- _Bag Reports_ - __git branch Bugreports__
+- _SQL_ - __git branch SQL__
+- _Charles_ - __git branch Charles__
+- _Mobile testing_ - __git branch Mobile_testing__
 
 _2. Запушить все ветки на внешний репозиторий:_
 - __git push --all__

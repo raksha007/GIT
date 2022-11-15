@@ -38,8 +38,8 @@ git push
 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 
 ```bash
-vim new.json
-Press the button "i"
+
+cat > new.json
 
 {
  "Name":"Stepan",
@@ -47,8 +47,9 @@ Press the button "i"
  "Pets":"1",
  "Salary":"8000$"
 }
-Esc
-:wq
+
+^C
+
 ```
 
 11. Отправить изменения на внешний репозиторий.
@@ -64,7 +65,9 @@ git push
 touch preferences.json
 ```
 
+
 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON.
+
 
 ```bash
 vim preferences.json
@@ -84,7 +87,9 @@ Esc
 
 ```bash
 touch skills.json
+
 vim skills.json
+
 Нажать на клавишу "I" - INSERT MODE
 {
 "1.": "Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC",
@@ -116,6 +121,7 @@ vim skills.json
 "27.": "Python. (Изучение основ. Создание клиент серверного приложения)"
 }
 
+
 Esc
 :wq
 
@@ -134,7 +140,9 @@ git push
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 ```bash
-Зайти на сайт github
+
+Зайти на сайт github.com
+
 Открыть репозиторий JSON
 Нажать на кнопку Add file
 Выбрать в меню Create new file
@@ -239,7 +247,9 @@ git push
 touch preferences.xml
 ```
 
+
 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате XML.
+
 
 ```xml
  cat > preferences.xml
@@ -249,7 +259,8 @@ touch preferences.xml
 <Favorite_serial> Everyones Hates Chris </Favorite_serial>
 <Favorite_food> Salo </Favorite_food>
 <Favorite_season> Winter </Favorite_season>
-<Favorite_country> Japan </Favorite_coutry>
+
+<Favorite_country> Japan </Favorite_country>
 
 ^C
 ```
@@ -429,6 +440,7 @@ git push
 ```bash
 touch preferences.txt
 ```
+
 
 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате TXT.
 

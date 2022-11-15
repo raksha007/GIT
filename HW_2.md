@@ -57,7 +57,7 @@ P3 Низкий (Low)
 - __Esc + :wq__  
 
 _4. Запушить структуру багрепорта на внешний репозиторий_ 
-- __git add .__   
+- __git add  bugreports.txt __   
 - __git commit -m "Create bugrreport.txt"__
 - __git push -u origin Bugreports__  
 
@@ -70,7 +70,7 @@ _6. Запушить main на внешний репозиторий:_
 
 _7. В ветке Checklists набросать структуру чек листа:_ 
 - __git_checkout Checklists__
-- __cat> checklist.md__
+- __cat> checklist.txt__
 ```bash
 ID
 Summary
@@ -80,11 +80,11 @@ Expected Result
 Status
 Bug report link
 ```
-- __ctrl+c__  
+- __Ctrl+c__  
 
 _8. Запушить структуру на внешний репозиторий_
 - __git add .__   
-- __git commit -m "Create checklist.md"__
+- __git commit -m "Create checklist.txt"__
 - __git push -u origin CheckLists__  
 
 _9. На внешнем репозитории сделать Pull Request ветки Checklists в main:_

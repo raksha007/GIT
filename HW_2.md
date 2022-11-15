@@ -71,7 +71,15 @@ _6. Запушить main на внешний репозиторий:_
 _7. В ветке Checklists набросать структуру чек листа:_ 
 - __git_checkout Checklists__
 - __cat> checklist.md__
-- __заполнить файл__
+```bash
+ID
+Summary
+Section
+Enviroment
+Expected Result
+Status
+Bug report link
+```
 - __ctrl+c__  
 
 _8. Запушить структуру на внешний репозиторий_

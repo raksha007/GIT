@@ -59,7 +59,7 @@ P3 Низкий (Low)
 _4. Запушить структуру багрепорта на внешний репозиторий_ 
 - __git add  bugreports.txt __   
 - __git commit -m "Create bugrreport.txt"__
-- __git push -u origin Bugreports__  
+- __git push __  
 
 _5. Вмержить ветку Bag Reports в Main:_ 
 - __git checkout main__

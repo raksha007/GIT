@@ -2,7 +2,7 @@ _1. На локальному репозиторії зробити гілки �
 - _Postman_ - __git branch Postman__
 - _Jmeter_ - __git branch Jmeter__
 - _CheckLists_ - __git branch Checklists__
-- _Bag Reports_ - __git branch Bugreports__
+- _BUg Reports_ - __git branch Bugreports__
 - _SQL_ - __git branch SQL__
 - _Charles_ - __git branch Charles__
 - _Mobile testing_ - __git branch Mobile_testing__

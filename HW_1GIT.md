@@ -1,7 +1,7 @@
 JSON 4. Створити зовнішній репозиторій з назвою JSON
 
 ```
-1. На сайтеі github.com в розділі Repositories,в полі Repository name написати JSON і  натиснути "Create repository"
+1. На сайті github.com в розділі Repositories,в полі Repository name написати JSON і  натиснути "Create repository"
 ```
 
 5. Клонувати репозиторій JSON на локальний комп'ютер.
